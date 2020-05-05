@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.designopera.news">
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="News"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".View.MainActivity"
+            android:label="News">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".View.ItemsActivity"
+            android:label="News"
+            android:parentActivityName=".View.MainActivity" />
+        <activity
+            android:name=".View.UploadActivity"
+            android:label="Enter Title and Details "
+            android:parentActivityName=".View.MainActivity" />
+        <activity
+            android:name=".View.DetailsActivity"
+            android:label="Details"
+            android:parentActivityName=".View.ItemsActivity" />
+
+    </application>
+
+</manifest>

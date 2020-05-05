@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "906989104008",
+    "firebase_url": "https://news-4ef2c.firebaseio.com",
+    "project_id": "news-4ef2c",
+    "storage_bucket": "news-4ef2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:906989104008:android:e425b489dcd4cb18c5683d",
+        "android_client_info": {
+          "package_name": "com.designopera.news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "906989104008-vg848kva2o1nlsv1fkt2pt8hg7relmr7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.designopera.news",
+            "certificate_hash": "de9a7be241f9d2e993d31add9154c2b23c9069c1"
+          }
+        },
+        {
+          "client_id": "906989104008-b83cqcvpqvgrmn00k16ffjp90vvfei88.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCS2SYOSXVttikezCbhmdn4FcHhZdKeAXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "906989104008-b83cqcvpqvgrmn00k16ffjp90vvfei88.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
